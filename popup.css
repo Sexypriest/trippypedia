@@ -1,0 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap');
+.trippy-card{
+ position:fixed;bottom:24px;right:24px;width:360px;
+ background:linear-gradient(145deg,#0f0f12,#1a1a1f);
+ color:#f5f5f7;padding:16px 18px;border-radius:18px;
+ font-family:Inter,system-ui,sans-serif;
+ box-shadow:0 30px 60px rgba(0,0,0,.55);
+ z-index:2147483647;}
+.tp-header{display:flex;justify-content:space-between;align-items:center}
+.tp-word{font-size:18px;font-weight:600}
+.tp-close{background:rgba(255,255,255,.08);border:none;color:#ccc;width:28px;height:28px;border-radius:8px;cursor:pointer}
+.tp-close:hover{background:rgba(255,255,255,.16);color:#fff}
+.tp-definition{margin-top:10px;font-size:14px;line-height:1.55}
+.tp-example{margin-top:8px;font-style:italic;opacity:.9}
+.tp-origin{margin-top:8px;font-size:13px;opacity:.8}
+.tp-input{width:100%;margin-top:10px;padding:8px;border-radius:8px;border:none}
+.tp-save{margin-top:8px;width:100%;padding:8px;border:none;border-radius:10px;background:#6c5ce7;color:#fff;cursor:pointer}
+.tp-footer{margin-top:12px;font-size:12px;opacity:.55}
